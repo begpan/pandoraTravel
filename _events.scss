@@ -1,0 +1,43 @@
+.events {
+  &-title {
+    text-align: center;
+    font-size: 4vmin;
+    margin: 50px 0;
+    color: $secondary-color;
+  }
+  &-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    padding: 20px;
+    flex-wrap: wrap;
+
+    &-col {
+      display: flex;
+      flex-direction: column;
+      
+
+      align-items: center;
+      width: 300px;
+      gap: 15px;
+
+      h4 {
+        color: $secondary-color;
+      }
+      p {
+        text-align: center;
+        color: $thirdy-color;
+        font-size: 18px;
+        width: 80%;
+        word-wrap: wrap;
+        word-break: break-all;
+      }
+      img {
+        width: 60%;
+        height: 200px;
+        object-fit: cover;
+      }
+    }
+  }
+}

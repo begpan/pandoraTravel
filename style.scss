@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Electrolize&family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+
+@import "_variables";
+@import "_header";
+@import "_components";
+@import "_navbar";
+@import "_events";
+@import "_explore";
+@import "_tours";
+@import "_footer";
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Electrolize", sans-serif;
+  font-family: "Poppins", sans-serif;
+  background-color: $body-color;
+  overflow-x: hidden;
+  
+}
+
+@media (max-width: 636px){
+  .navbar_links{
+    display: none;
+  }
+
+  .route{
+    display: block;
+  }
+}

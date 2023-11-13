@@ -1,0 +1,48 @@
+.navbar {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  top: 0;
+  left: 0;
+  color: var($text-color);
+  padding: 20px;
+  align-items: center;
+
+  h1{
+    font-size: 5vmin;
+
+    span{
+      color: $primary-color;
+    }
+  }
+
+  &_links{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    align-items: center;
+
+    a{color: $text-color;}
+
+  }
+}
+
+.menu_btn {
+  display: none;
+}
+
+.navbar_logo{
+  white-space: nowrap;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+.navbar-links{display: block}
+
+.route{
+  display: none;
+  font-size: 23px;
+  color: $primary-color;
+  font-weight: 10;
+}
+
